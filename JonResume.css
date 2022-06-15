@@ -1,0 +1,86 @@
+.resumecontainer {
+  
+  width: 816px;
+  
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  height: 1056px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+p {
+  margin: 2px;
+}
+.header {
+  padding-top: 5px;
+  display: flex;
+  align-content: flex-start;
+}
+
+.picture {
+  flex-shrink: 1;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.contactinfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.name {
+  flex: 1;
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.SocialMedia {
+  flex: 1;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+ion-icon {
+  font-size: 24px;
+}
+
+p {
+  padding: 2px;
+}
+
+.ExpLangProj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.Experience {
+  display: grid;
+  grid-row-start: span 2;
+}
+
+#ExpBorder {
+  width: 400px;
+}
+
+.Title {
+  text-align: center;
+}
+
+div {
+  padding: 3px;
+}
